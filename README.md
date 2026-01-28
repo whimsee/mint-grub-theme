@@ -32,7 +32,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 - Done!
 
-- If you want, you can preview the theme using `grub2-theme-preview` (you need to install it first):
+- If you want, you can preview the theme using [grub2-theme-preview](https://github.com/hartwork/grub2-theme-preview) (you need to install it first):
 ```
 grub2-theme-preview /boot/grub/themes/mint --resolution 1920x1080
 ```
