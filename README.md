@@ -10,7 +10,7 @@ Wallpaper from [Maid Mint Ch. ミント・ファントーム](https://www.youtub
 
 ### From source
 
-- Clone the repository
+- Clone the repository or download the source from the release page
 ```bash
 git clone https://github.com/whimsee/mint-grub-theme.git
 ```
