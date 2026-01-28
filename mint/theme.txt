@@ -1,0 +1,81 @@
+# Global
+
+title-text: ""
+desktop-image: "background.png"
+
+# Terminal for Console and Options
+terminal-border: "20"
+terminal-left: "20%"
+terminal-top: "20%+23"
+terminal-width: "60%"
+terminal-height: "60%"
+terminal-box: "term_*.png"
+terminal-font: "Monocraft Regular 22"
+
++ boot_menu {
+	left = 2%
+	top = 5%
+	width = 600
+	height = 500
+
+	item_font = "Quirky Ghost Regular 24"
+	item_color = #CCCCCC
+	#selected_item_color = #90D5FF
+	selected_item_color = #90D5FF
+	item_height = 45
+	item_padding = 0
+	item_icon_space = -20
+	item_spacing = 0
+	item_pixmap_style = "item_*.png"
+	selected_item_pixmap_style = "selected_item_*.png"
+	scrollbar = false
+}
+
+# SHADOW
++ boot_menu {
+	left = 2%+20
+	top = 5%+2
+	width = 600
+	height = 500
+
+	item_font = "Quirky Ghost Regular 24"
+	item_color = #333333
+	selected_item_color = #333333
+	item_height = 45
+	item_padding = 0
+	item_icon_space = -20
+	item_spacing = 0
+	scrollbar = false
+}
+
+# TEXT 
++ label {
+	id = "__timeout__"
+	
+	left = 49%
+	top = 100%-50
+	height = 24
+	width = 50%-6	
+	
+	text = "Haunting in %d seconds"
+	align = "right"
+	font = "PixelHallfeticaJP10P Regular 30"
+	color = "white"
+}
+
+# SHADOW 
++ label {
+	id = "__timeout__"
+
+	left = 49%+3
+	top = 100%-47
+	height = 24
+	width = 50%-6
+
+	text = "Haunting in %d seconds"
+	align = "right"
+	font = "PixelHallfeticaJP10P Regular 30"
+	color = "#3f3f3f"
+}
+
+
