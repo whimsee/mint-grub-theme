@@ -16,7 +16,7 @@ git clone https://github.com/whimsee/mint-grub-theme.git
 ```
 *The following may vary depending on your distro*
 
-- Copy the "mint" folder to /boot/grub/themes
+- Copy the "mint" folder to `/boot/grub/themes`
 
 - Change/add this line in your `/etc/default/grub`:
 ```
